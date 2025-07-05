@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sabrina&#39;s Blog</title>
-    <link>http://localhost:1313/myblog/</link>
+    <link>https://sabrinaadler.github.io/myblog/</link>
     <description>Recent content on Sabrina&#39;s Blog</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sabrinaadler.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World!</title>
-      <link>http://localhost:1313/myblog/posts/hello-world/</link>
+      <link>https://sabrinaadler.github.io/myblog/posts/hello-world/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/posts/hello-world/</guid>
+      <guid>https://sabrinaadler.github.io/myblog/posts/hello-world/</guid>
       <description>&lt;p&gt;Welcome to my new blog!
 I&amp;rsquo;ll be sharing thoughts on my current projects and interests. I hope you enjoy!&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/myblog/about/</link>
+      <link>https://sabrinaadler.github.io/myblog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/about/</guid>
+      <guid>https://sabrinaadler.github.io/myblog/about/</guid>
       <description>&lt;div style=&#34;display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem;&#34;&gt;
   &lt;div style=&#34;flex-shrink:0;&#34;&gt;
     &lt;img
-      src=&#39;http://localhost:1313/myblog/images/profile.jpg&#39;
+      src=&#39;https://sabrinaadler.github.io/myblog/images/profile.jpg&#39;
       alt=&#39;Sabri’s Photo&#39;
       style=&#34;width:120px; height:120px; object-fit:cover; border-radius:50%;&#34;
     &gt;
