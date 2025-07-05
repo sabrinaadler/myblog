@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+&lt;?xml-stylesheet type=&#34;text/xsl&#34; href=&#34;rss.xsl&#34;?&gt;
+&lt;?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Sabrina&#39;s Blog</title>
-    <link>https://sabrinaadler.github.io/myblog/posts/</link>
-    <description>Recent content in Posts on Sabrina&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sabrinaadler.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello, World</title>
-      <link>https://sabrinaadler.github.io/myblog/posts/hello-world/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sabrinaadler.github.io/myblog/posts/hello-world/</guid>
-      <description>&lt;p&gt;Welcome to my new blog! 🚀&lt;br&gt;&#xA;I&amp;rsquo;ll be sharing thoughts on operating systems, machine learning, algorithms, LaTeX, and code projects here.&#xA;test&lt;/p&gt;</description>
-    </item>
-  </channel>
+<channel>
+  <title>Sabrina&#39;s Blog</title>
+  <link>https://sabrinaadler.github.io/myblog/</link>
+  <description>A blog on code, math, birds, and things in between.</description>
+  <lastBuildDate>Sat, 05 Jul 2025 14:16:49 EDT</lastBuildDate>
+  <atom:link href="https://sabrinaadler.github.io/myblog/index.xml" rel="self" type="application/rss+xml"/><item>
+    <title>Hello, World</title>
+    <link>https://sabrinaadler.github.io/myblog/posts/hello-world/</link>
+    <pubDate>Fri, 04 Jul 2025 00:00:00 UTC</pubDate>
+    <guid>https://sabrinaadler.github.io/myblog/posts/hello-world/</guid>
+    <description>&lt;![CDATA[<p>Welcome to my new blog! 🚀<br>
+I&rsquo;ll be sharing thoughts on operating systems, machine learning, algorithms, LaTeX, and code projects here.
+test</p>]]></description>
+  </item></channel>
 </rss>
