@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sabrinaadler.github.io/about/</loc>
+    <loc>https://sabrinaadler.github.io:1313/myblog/about/</loc>
     <lastmod>2025-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sabrinaadler.github.io/posts/hello-world/</loc>
+    <loc>https://sabrinaadler.github.io:1313/myblog/posts/hello-world/</loc>
     <lastmod>2025-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sabrinaadler.github.io/posts/</loc>
+    <loc>https://sabrinaadler.github.io:1313/myblog/posts/</loc>
     <lastmod>2025-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sabrinaadler.github.io/</loc>
+    <loc>https://sabrinaadler.github.io:1313/myblog/</loc>
     <lastmod>2025-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sabrinaadler.github.io/categories/</loc>
+    <loc>https://sabrinaadler.github.io:1313/myblog/categories/</loc>
   </url><url>
-    <loc>https://sabrinaadler.github.io/tags/</loc>
+    <loc>https://sabrinaadler.github.io:1313/myblog/tags/</loc>
   </url>
 </urlset>
