@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sabrina&#39;s Blog</title>
-    <link>https://sabrinaadler.github.io/myblog/</link>
+    <link>http://localhost:1313/myblog/</link>
     <description>Recent content on Sabrina&#39;s Blog</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sabrinaadler.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/myblog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://sabrinaadler.github.io/myblog/about/</link>
+      <link>http://localhost:1313/myblog/about/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sabrinaadler.github.io/myblog/about/</guid>
+      <guid>http://localhost:1313/myblog/about/</guid>
       <description>&lt;p&gt;Hi, I&amp;rsquo;m Sabrina — a senior CS/ Math student at Penn State with a deep interest in machine learning, data science, and applied math.&lt;/p&gt;
 &lt;p&gt;This blog is where I share:&lt;/p&gt;
 &lt;ul&gt;
@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>Hello, World</title>
-      <link>https://sabrinaadler.github.io/myblog/posts/hello-world/</link>
+      <link>http://localhost:1313/myblog/posts/hello-world/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://sabrinaadler.github.io/myblog/posts/hello-world/</guid>
+      <guid>http://localhost:1313/myblog/posts/hello-world/</guid>
       <description>&lt;p&gt;Welcome to my new blog! 🚀&lt;br&gt;
 I&amp;rsquo;ll be sharing thoughts on operating systems, machine learning, algorithms, LaTeX, and code projects here.
 test&lt;/p&gt;</description>

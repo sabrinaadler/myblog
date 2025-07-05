@@ -12,6 +12,9 @@ description = "A blog on code, math, birds, and things in between."
 math = true  # Enables LaTeX via KaTeX
 showReadingTime = true
 
+[params.assets]
+  disableFingerprinting = true
+
 [menu]
 [[menu.main]]
 name = "Home"
