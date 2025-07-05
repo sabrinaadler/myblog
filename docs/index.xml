@@ -1,17 +1,17 @@
-&lt;?xml-stylesheet type=&#34;text/xsl&#34; href=&#34;rss.xsl&#34;?&gt;
-&lt;?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-  <title>Sabrina&#39;s Blog</title>
-  <link>https://sabrinaadler.github.io/myblog/</link>
-  <description>A blog on code, math, birds, and things in between.</description>
-  <lastBuildDate>Sat, 05 Jul 2025 14:16:49 EDT</lastBuildDate>
-  <atom:link href="https://sabrinaadler.github.io/myblog/index.xml" rel="self" type="application/rss+xml"/><item>
-    <title>About</title>
-    <link>https://sabrinaadler.github.io/myblog/about/</link>
-    <pubDate>Fri, 04 Jul 2025 00:00:00 UTC</pubDate>
-    <guid>https://sabrinaadler.github.io/myblog/about/</guid>
-    <description>&lt;![CDATA[<p>Hi, I&rsquo;m Sabrina — a senior CS/ Math student at Penn State with a deep interest in machine learning, data science, and applied math.</p>
+  <channel>
+    <title>Sabrina&#39;s Blog</title>
+    <link>https://sabrinaadler.github.io/myblog/</link>
+    <description>A blog on code, math, birds, and things in between.</description>
+    <lastBuildDate>Sat, 05 Jul 2025 14:21:48 EDT</lastBuildDate>
+    <atom:link href="https://sabrinaadler.github.io/myblog/index.xml" rel="self" type="application/rss+xml"/><item>
+      <title>About</title>
+      <link>https://sabrinaadler.github.io/myblog/about/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 UTC</pubDate>
+      <guid>https://sabrinaadler.github.io/myblog/about/</guid>
+      <description>&lt;![CDATA[<p>Hi, I&rsquo;m Sabrina — a senior CS/ Math student at Penn State with a deep interest in machine learning, data science, and applied math.</p>
 <p>This blog is where I share:</p>
 <ul>
 <li>Explorations in code and math</li>
@@ -19,11 +19,11 @@
 <li>My birding + travel stories</li>
 </ul>
 <p>When I’m not coding, I’m probably birding, spending time with my friends, or cooking.</p>]]></description>
-  </item><item>
-    <title>Posts</title>
-    <link>https://sabrinaadler.github.io/myblog/posts/</link>
-    <pubDate>Fri, 04 Jul 2025 00:00:00 UTC</pubDate>
-    <guid>https://sabrinaadler.github.io/myblog/posts/</guid>
-    <description>&lt;![CDATA[]]></description>
-  </item></channel>
+    </item><item>
+      <title>Posts</title>
+      <link>https://sabrinaadler.github.io/myblog/posts/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 UTC</pubDate>
+      <guid>https://sabrinaadler.github.io/myblog/posts/</guid>
+      <description>&lt;![CDATA[]]></description>
+    </item></channel>
 </rss>
