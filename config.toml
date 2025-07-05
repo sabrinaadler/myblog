@@ -24,6 +24,11 @@ url = "/post/"
 weight = 2
 
 [[menu.main]]
+  name = "Feed"
+  url  = "/feed/"
+  weight = 4
+
+[[menu.main]]
 name = "About"
 url = "/about/"
 weight = 3

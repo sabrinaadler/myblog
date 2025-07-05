@@ -5,7 +5,7 @@
     <title>Sabrina&#39;s Blog</title>
     <link>https://sabrinaadler.github.io/myblog/</link>
     <description>A blog on code, math, birds, and things in between.</description>
-    <lastBuildDate>Sat, 05 Jul 2025 14:24:30 EDT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jul 2025 14:32:48 EDT</lastBuildDate>
     <atom:link href="https://sabrinaadler.github.io/myblog/index.xml" rel="self" type="application/rss+xml"/><item>
       <title>About</title>
       <link>https://sabrinaadler.github.io/myblog/about/</link>
@@ -25,5 +25,11 @@
       <pubDate>Fri, 04 Jul 2025 00:00:00 UTC</pubDate>
       <guid>https://sabrinaadler.github.io/myblog/posts/</guid>
       <description>&lt;![CDATA[]]></description>
+    </item><item>
+      <title>All Posts</title>
+      <link>https://sabrinaadler.github.io/myblog/feed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <guid>https://sabrinaadler.github.io/myblog/feed/</guid>
+      <description>&lt;![CDATA[<p>Below is the list of everything I’ve published so far. Enjoy!</p>]]></description>
     </item></channel>
 </rss>
