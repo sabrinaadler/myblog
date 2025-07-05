@@ -1,0 +1,27 @@
+baseURL = "https://sabrinaadler.github.io/"
+languageCode = "en-us"
+title = "Sabrina's Blog"
+theme = "eureka"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[params]
+author = "Sabrina Adler"
+description = "A blog on code, math, birds, and things in between."
+math = true  # Enables LaTeX via KaTeX
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/post/"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 3
