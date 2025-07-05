@@ -1,0 +1,12 @@
+<div style="display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem;">
+  <div style="flex-shrink:0;">
+    <img
+      src='{{ .Get "src" | absURL }}'
+      alt='{{ .Get "alt" }}'
+      style="width:120px; height:120px; object-fit:cover; border-radius:50%;"
+    >
+  </div>
+  <div style="flex:1;">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

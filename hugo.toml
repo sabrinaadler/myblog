@@ -30,3 +30,11 @@ weight = 2
 name = "About"
 url = "/about/"
 weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# (Optional) to stop the warning in your console:
+ignoreLogs = ["warning-goldmark-raw-html"]
