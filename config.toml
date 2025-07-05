@@ -39,6 +39,12 @@ canonifyURLs = false
     url  = "/notes/"
     weight = 30
 
+    [[menu.main]]
+    name   = "Course Materials"
+    url    = "notes/math312h/"
+    weight = 30
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
