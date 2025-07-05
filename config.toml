@@ -5,6 +5,9 @@ theme      = "PaperMod"
 publishDir = "docs"
 defaultContentLanguage = "en"
 enableEmoji = true
+relativeURLs = true
+canonifyURLs = false
+
 
 [params]
   author      = "Sabrina Adler"
