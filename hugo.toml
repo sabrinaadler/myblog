@@ -31,6 +31,12 @@ name = "About"
 url = "/about/"
 weight = 3
 
+[[menu.main]]
+  name = "Course Materials"
+  url  = "/notes/"
+  weight = 30
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
