@@ -14,6 +14,7 @@ canonifyURLs = false
   description = "A blog on code, math, birds, and things in between."
   math        = true
   showReadingTime = true
+  disableFingerprinting = true
 
 [menu]
   [[menu.main]]
