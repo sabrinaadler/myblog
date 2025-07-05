@@ -1,0 +1,29 @@
+baseURL = "https://sabrinaadler.github.io/myblog/"
+languageCode = "en-us"
+title = "Sabrina's Blog"
+theme = "PaperMod"
+publishDir = "docs"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[params]
+author = "Sabrina Adler"
+description = "A blog on code, math, birds, and things in between."
+math = true  # Enables LaTeX via KaTeX
+showReadingTime = true
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 3
