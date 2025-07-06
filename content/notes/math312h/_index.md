@@ -1,3 +1,12 @@
+---
+title: "MATH 312H: Honors Real Analysis Notes (Sp25)"
+date: 2025-07-05
+description: "Lecture and exam study notes for MATH 312H."
+slug: "math312h"
+url:  "/notes/math312h/"
+---
+
+Below you’ll find all my weekly lecture notes and study guides for MATH 312H.
 
 | Week/Exam | Topic                                        | PDF Link                                      |
 |:---------:|:---------------------------------------------|:----------------------------------------------|
