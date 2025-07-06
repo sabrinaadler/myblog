@@ -1,20 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Sabrina's Blog</title><link>https://sabrinaadler.github.io/myblog/</link><description>Recent content on Sabrina's Blog</description><generator>Hugo -- 0.147.9</generator><language>en-us</language><lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://sabrinaadler.github.io/myblog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World!</title><link>https://sabrinaadler.github.io/myblog/posts/hello-world/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://sabrinaadler.github.io/myblog/posts/hello-world/</guid><description>&lt;p>Welcome to my new blog!
-I&amp;rsquo;ll be sharing thoughts on my current projects and interests. I hope you enjoy!&lt;/p></description></item><item><title>About Me</title><link>https://sabrinaadler.github.io/myblog/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sabrinaadler.github.io/myblog/about/</guid><description>&lt;div style="display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem;">
-&lt;div style="flex-shrink:0;">
-&lt;img
-src='https://sabrinaadler.github.io/myblog/images/profile.jpg'
-alt='Sabri’s Photo'
-style="width:120px; height:120px; object-fit:cover; border-radius:50%;"
->
-&lt;/div>
-&lt;div style="flex:1;">
-Hi—I’m &lt;strong>Sabrina Adler&lt;/strong>, a senior CS/Math student at Penn State with a deep interest in machine learning, data science, and applied math.
-&lt;/div>
-&lt;/div>
-&lt;p>This blog is where I share:&lt;/p>
-&lt;ul>
-&lt;li>Explorations in code and math&lt;/li>
-&lt;li>Projects I’m working on&lt;/li>
-&lt;li>My birding + travel stories&lt;/li>
-&lt;/ul>
-&lt;p>When I’m not coding, I’m probably birding, hanging out with friends, or cooking.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sabrina&#39;s Blog</title>
+    <link>http://localhost:1313/myblog/</link>
+    <description>Recent content on Sabrina&#39;s Blog</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World!</title>
+      <link>http://localhost:1313/myblog/posts/hello-world/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/myblog/posts/hello-world/</guid>
+      <description>&lt;p&gt;Welcome to my new blog!
+I&amp;rsquo;ll be sharing thoughts on my current projects and interests. I hope you enjoy!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/myblog/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/myblog/about/</guid>
+      <description>&lt;div style=&#34;display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem;&#34;&gt;
+  &lt;div style=&#34;flex-shrink:0;&#34;&gt;
+    &lt;img
+      src=&#39;http://localhost:1313/myblog/images/profile.jpg&#39;
+      alt=&#39;Sabri’s Photo&#39;
+      style=&#34;width:120px; height:120px; object-fit:cover; border-radius:50%;&#34;
+    &gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;flex:1;&#34;&gt;
+    Hi—I’m &lt;strong&gt;Sabrina Adler&lt;/strong&gt;, a senior CS/Math student at Penn State with a deep interest in machine learning, data science, and applied math.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This blog is where I share:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explorations in code and math&lt;/li&gt;
+&lt;li&gt;Projects I’m working on&lt;/li&gt;
+&lt;li&gt;My birding + travel stories&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When I’m not coding, I’m probably birding, hanging out with friends, or cooking.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
