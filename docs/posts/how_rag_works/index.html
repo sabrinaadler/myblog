@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/myblog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=myblog/livereload" data-no-instant defer></script><meta charset="utf-8">
-<base href="http://localhost:1313/myblog/">
+<head><meta charset="utf-8">
+<base href="https://sabrinaadler.github.io/myblog/">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>How Retrieval Augmented Generation Works | Sabrina&#39;s Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="Introduction
 Natural Language Processing (NLP) is the process of taking a natural language input and then processing this input into something that a computer can understand. Large Language Models, or LLMs, are a subfield of NLP that uses artificial intelligence to interpret and generate natural language; some popular examples include ChatGPT and Google Bard.
 The disadvantage of LLMs is that they are trained on outdated information that might not be specific enough for a particular use case. Additionally, many can only accept up to a few thousand words, so it is impossible to pass in large documents. That is where Retrieval Augmented Generation comes in.">
 <meta name="author" content="Sabrina Adler">
-<link rel="canonical" href="http://localhost:1313/myblog/posts/how_rag_works/">
-<link crossorigin="anonymous" href="http://localhost:1313/myblog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/myblog/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/myblog/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/myblog/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/myblog/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/myblog/safari-pinned-tab.svg">
+<link rel="canonical" href="https://sabrinaadler.github.io/myblog/posts/how_rag_works/">
+<link crossorigin="anonymous" href="https://sabrinaadler.github.io/myblog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://sabrinaadler.github.io/myblog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://sabrinaadler.github.io/myblog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://sabrinaadler.github.io/myblog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://sabrinaadler.github.io/myblog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://sabrinaadler.github.io/myblog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/myblog/posts/how_rag_works/">
+<link rel="alternate" hreflang="en" href="https://sabrinaadler.github.io/myblog/posts/how_rag_works/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,7 +58,76 @@ The disadvantage of LLMs is that they are trained on outdated information that m
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://sabrinaadler.github.io/myblog/posts/how_rag_works/">
+  <meta property="og:site_name" content="Sabrina&#39;s Blog">
+  <meta property="og:title" content="How Retrieval Augmented Generation Works">
+  <meta property="og:description" content="Introduction Natural Language Processing (NLP) is the process of taking a natural language input and then processing this input into something that a computer can understand. Large Language Models, or LLMs, are a subfield of NLP that uses artificial intelligence to interpret and generate natural language; some popular examples include ChatGPT and Google Bard.
+The disadvantage of LLMs is that they are trained on outdated information that might not be specific enough for a particular use case. Additionally, many can only accept up to a few thousand words, so it is impossible to pass in large documents. That is where Retrieval Augmented Generation comes in.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-07-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-07-16T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How Retrieval Augmented Generation Works">
+<meta name="twitter:description" content="Introduction
+Natural Language Processing (NLP) is the process of taking a natural language input and then processing this input into something that a computer can understand. Large Language Models, or LLMs, are a subfield of NLP that uses artificial intelligence to interpret and generate natural language; some popular examples include ChatGPT and Google Bard.
+The disadvantage of LLMs is that they are trained on outdated information that might not be specific enough for a particular use case. Additionally, many can only accept up to a few thousand words, so it is impossible to pass in large documents. That is where Retrieval Augmented Generation comes in.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "All Posts",
+      "item": "https://sabrinaadler.github.io/myblog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "How Retrieval Augmented Generation Works",
+      "item": "https://sabrinaadler.github.io/myblog/posts/how_rag_works/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How Retrieval Augmented Generation Works",
+  "name": "How Retrieval Augmented Generation Works",
+  "description": "Introduction Natural Language Processing (NLP) is the process of taking a natural language input and then processing this input into something that a computer can understand. Large Language Models, or LLMs, are a subfield of NLP that uses artificial intelligence to interpret and generate natural language; some popular examples include ChatGPT and Google Bard.\nThe disadvantage of LLMs is that they are trained on outdated information that might not be specific enough for a particular use case. Additionally, many can only accept up to a few thousand words, so it is impossible to pass in large documents. That is where Retrieval Augmented Generation comes in.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Introduction Natural Language Processing (NLP) is the process of taking a natural language input and then processing this input into something that a computer can understand. Large Language Models, or LLMs, are a subfield of NLP that uses artificial intelligence to interpret and generate natural language; some popular examples include ChatGPT and Google Bard.\nThe disadvantage of LLMs is that they are trained on outdated information that might not be specific enough for a particular use case. Additionally, many can only accept up to a few thousand words, so it is impossible to pass in large documents. That is where Retrieval Augmented Generation comes in.\nDefinition and Process Retrieval Augmented Generation (RAG) is a process that improves the outputs of large language models using context retrieved from a vector database. There are four main steps: first, it takes the documents (PDFs, text files, word documents) and embeds them into a vector; then, it takes these embeddings and stores them in a vector database; next, when the user asks a question, it finds chunks of text in the database that are similar to the question; finally, it uses this text to give the LLM extra context to answer the question.\nEmbedding and Vectorization The user will select documents that are relevant to their use case. For example, if you want to ask an LLM about your car, you may upload the user manual. The next step is to chunk the document into chunks of text that can be embedded; typically, these chunk sizes are a sentence to a paragraph in length. These chunks of text are then passed to the embedding model.\nAn embedding model is a tiny LLM trained on how relevant words are to each other. Words or concepts that are more strongly related have closer vectors to each other. For example, the words “queen” and “chess” would have vectors that are very close to each other, but the word “lime” would have a very different vector from those two since they are not closely related. To understand how embeddings work better, the first five minutes of this video explain how embeddings work in a very simplified way.\nFrom the embedding model, it returns vectors of all of the chunks of text from the document that the user passed in. These vectors are then passed into a vector database, which stores the chunk number, the embedded vector, and the text in the chunk. Now, the document is entirely parsed and stored in a vector database so that it will be easier to pull the most relevant chunks.\nMaking Requests to the Vector Database This step aims to get the chunks of text from the documents that the user passed in most relevant to the question. This step is important because the goal of a RAG pipeline is to supply the LLM with extra context to improve the answer. From the previous step, there is now a vector database that stores all of the chunks of text that have been embedded into vectors. Now, the user can query these documents.\nThe user can now enter a question, for example, “How many miles can I drive before changing my oil?”. The embedding model will then embed this question into a vector. It needs to embed the question into a vector because a mathematical calculation will occur between the vector of the question and all the other vectors of the chunks of text. From the embedding model, the closer two vectors are to each other, the more similar a meaning they have to each other. So, the point of the calculation is to find the vector of text with the smallest distance from the question, since the chunk of text will have the most similar meaning to the question.\nTypically, the most common type of calculation is a semantic cosine similarity search which will return a value between negative one and one: one being the most similar and the negative one being the most opposite. Below is an example of the calculator it will perform, and the summations are to account for the number of dimensions that the vectors are in, typically anywhere from one hundred to one thousand.\nThis calculation will occur between all of the vectors, and only the text chunks with the vectors that have the highest similarity to the vector of the question will be returned. Continuing with the previous example, a chunk of text about the oil will have a higher cosine similarity score than a chunk of text about the windshield wipers; this means, the chunk of text about oil will get returned. Ideally, this calculation will get the chunks of text that will be the most relevant and useful for answering the question.\nPassing Context to the LLM The final step of the RAG pipeline is to pass the question alongside the retrieved context to an LLM to generate a final response. There are many different templates to format this, but typically they are something like: “You are a helpful assistant given the following context: {insert context retrieved}; Please answer this question only using the context provided: {insert user question}”.\nConclusion The RAG pipeline embeds the documents and stores them in a vector database. Then, the pipeline uses a cosine similarity search to find the most relevant chunks to the question. Finally, it sends the extra context and question to the LLM and gets a final answer. Retrieval Augmented Generation is a useful tool in artificial intelligence. It can make large language models better for a variety of use cases.\n",
+  "wordCount" : "925",
+  "inLanguage": "en",
+  "datePublished": "2025-07-16T00:00:00Z",
+  "dateModified": "2025-07-16T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Sabrina Adler"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sabrinaadler.github.io/myblog/posts/how_rag_works/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sabrina's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sabrinaadler.github.io/myblog/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -76,7 +145,7 @@ The disadvantage of LLMs is that they are trained on outdated information that m
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/myblog/" accesskey="h" title="Sabrina&#39;s Blog (Alt + H)">Sabrina&#39;s Blog</a>
+            <a href="https://sabrinaadler.github.io/myblog/" accesskey="h" title="Sabrina&#39;s Blog (Alt + H)">Sabrina&#39;s Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -102,22 +171,22 @@ The disadvantage of LLMs is that they are trained on outdated information that m
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/myblog/" title="Home">
+                <a href="https://sabrinaadler.github.io/myblog/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/myblog/posts/" title="Posts">
+                <a href="https://sabrinaadler.github.io/myblog/posts/" title="Posts">
                     <span>Posts</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/myblog/about/" title="About">
+                <a href="https://sabrinaadler.github.io/myblog/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/myblog/notes/" title="Course Materials">
+                <a href="https://sabrinaadler.github.io/myblog/notes/" title="Course Materials">
                     <span>Course Materials</span>
                 </a>
             </li>
@@ -166,7 +235,7 @@ The disadvantage of LLMs is that they are trained on outdated information that m
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/myblog/">Sabrina&#39;s Blog</a></span> · 
+        <span>&copy; 2025 <a href="https://sabrinaadler.github.io/myblog/">Sabrina&#39;s Blog</a></span> · 
 
     <span>
         Powered by
