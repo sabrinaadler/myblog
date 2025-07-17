@@ -4,7 +4,6 @@ date: 2025-07-16
 author: Sabrina Adler
 ---
 
-# How Retrieval Augmented Generation Works
 
 ## Introduction
 
