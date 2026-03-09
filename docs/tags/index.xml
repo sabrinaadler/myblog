@@ -2,10 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Sabrina&#39;s Blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://sabrinaadler.github.io/myblog/tags/</link>
     <description>Recent content in Tags on Sabrina&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sabrinaadler.github.io/myblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Directed Reading Program</title>
+      <link>https://sabrinaadler.github.io/myblog/tags/directed-reading-program/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://sabrinaadler.github.io/myblog/tags/directed-reading-program/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>https://sabrinaadler.github.io/myblog/tags/education/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://sabrinaadler.github.io/myblog/tags/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>https://sabrinaadler.github.io/myblog/tags/math/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://sabrinaadler.github.io/myblog/tags/math/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
