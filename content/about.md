@@ -68,4 +68,4 @@ Outside of research and coursework, I enjoy **teaching mathematics, birding, and
 
 You can download my CV here:
 
-[Download CV](/myblog/SabrinaAdlerCV.pdf)
+[Download CV](SabrinaAdlerCV.pdf)
