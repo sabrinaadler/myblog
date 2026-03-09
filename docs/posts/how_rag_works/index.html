@@ -2,7 +2,6 @@
 <html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
-<base href="https://sabrinaadler.github.io/myblog/">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -13,7 +12,7 @@ Natural Language Processing (NLP) is the process of taking a natural language in
 The disadvantage of LLMs is that they are trained on outdated information that might not be specific enough for a particular use case. Additionally, many can only accept up to a few thousand words, so it is impossible to pass in large documents. That is where Retrieval Augmented Generation comes in.">
 <meta name="author" content="Sabrina Adler">
 <link rel="canonical" href="https://sabrinaadler.github.io/myblog/posts/how_rag_works/">
-<link crossorigin="anonymous" href="https://sabrinaadler.github.io/myblog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/myblog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://sabrinaadler.github.io/myblog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://sabrinaadler.github.io/myblog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://sabrinaadler.github.io/myblog/favicon-32x32.png">
@@ -42,23 +41,38 @@ The disadvantage of LLMs is that they are trained on outdated information that m
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
+            .toc {
+                background: var(--entry);
             }
+        }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://sabrinaadler.github.io/myblog/posts/how_rag_works/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://sabrinaadler.github.io/myblog/posts/how_rag_works/">
   <meta property="og:site_name" content="Sabrina&#39;s Blog">
   <meta property="og:title" content="How Retrieval Augmented Generation Works">
   <meta property="og:description" content="Introduction Natural Language Processing (NLP) is the process of taking a natural language input and then processing this input into something that a computer can understand. Large Language Models, or LLMs, are a subfield of NLP that uses artificial intelligence to interpret and generate natural language; some popular examples include ChatGPT and Google Bard.

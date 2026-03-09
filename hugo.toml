@@ -5,7 +5,7 @@ theme = "PaperMod"
 publishDir = "docs"
 defaultContentLanguage = "en"
 enableEmoji = true
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = false
 
 [params]

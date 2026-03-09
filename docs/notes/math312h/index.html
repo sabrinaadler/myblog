@@ -2,7 +2,6 @@
 <html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
-<base href="https://sabrinaadler.github.io/myblog/">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -11,7 +10,7 @@
 <meta name="description" content="Lecture and exam study notes for MATH 312H.">
 <meta name="author" content="Sabrina Adler">
 <link rel="canonical" href="https://sabrinaadler.github.io/myblog/notes/math312h/">
-<link crossorigin="anonymous" href="https://sabrinaadler.github.io/myblog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/myblog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://sabrinaadler.github.io/myblog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://sabrinaadler.github.io/myblog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://sabrinaadler.github.io/myblog/favicon-32x32.png">
@@ -19,7 +18,7 @@
 <link rel="mask-icon" href="https://sabrinaadler.github.io/myblog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://sabrinaadler.github.io/myblog/notes/math312h/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://sabrinaadler.github.io/myblog/notes/math312h/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://sabrinaadler.github.io/myblog/notes/math312h/">
 <noscript>
     <style>
@@ -41,23 +40,38 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
+            .toc {
+                background: var(--entry);
             }
+        }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://sabrinaadler.github.io/myblog/notes/math312h/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://sabrinaadler.github.io/myblog/notes/math312h/">
   <meta property="og:site_name" content="Sabrina&#39;s Blog">
   <meta property="og:title" content="MATH 312H: Honors Real Analysis Notes (Sp25)">
   <meta property="og:description" content="Lecture and exam study notes for MATH 312H.">

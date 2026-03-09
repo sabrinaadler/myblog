@@ -2,7 +2,6 @@
 <html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
-<base href="https://sabrinaadler.github.io/myblog/">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -21,7 +20,7 @@ Hello! I&rsquo;m Sabrina Adler, an Integrated B.S./M.S. student in Computer Scie
 My interests sit at the intersection of machine learning, computer vision, and scientific research, particularly where computational methods can help us better understand complex natural systems.">
 <meta name="author" content="Sabrina Adler">
 <link rel="canonical" href="https://sabrinaadler.github.io/myblog/about/">
-<link crossorigin="anonymous" href="https://sabrinaadler.github.io/myblog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/myblog/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://sabrinaadler.github.io/myblog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://sabrinaadler.github.io/myblog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://sabrinaadler.github.io/myblog/favicon-32x32.png">
@@ -50,23 +49,38 @@ My interests sit at the intersection of machine learning, computer vision, and s
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
+            .toc {
+                background: var(--entry);
             }
+        }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://sabrinaadler.github.io/myblog/about/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://sabrinaadler.github.io/myblog/about/">
   <meta property="og:site_name" content="Sabrina&#39;s Blog">
   <meta property="og:title" content="About Me">
   <meta property="og:description" content="Hello! I’m Sabrina Adler, an Integrated B.S./M.S. student in Computer Science and Engineering at The Pennsylvania State University, where I am also completing a B.S. in Mathematics (Systems Analysis) and I am in the Schreyer Honors College.
@@ -243,7 +257,7 @@ My interests sit at the intersection of machine learning, computer vision, and s
 <hr>
 <h2 id="cv">CV<a hidden class="anchor" aria-hidden="true" href="#cv">#</a></h2>
 <p>You can download my CV here:</p>
-<p><a href="../SabrinaAdlerCV.pdf">Download CV</a></p>
+<p><a href="/SabrinaAdlerCV.pdf">Download CV</a></p>
 
 
   </div>
