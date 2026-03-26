@@ -29,5 +29,26 @@
       <guid>https://sabrinaadler.github.io/myblog/tags/math/</guid>
       <description></description>
     </item>
+    <item>
+      <title>NLP</title>
+      <link>https://sabrinaadler.github.io/myblog/tags/nlp/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sabrinaadler.github.io/myblog/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAG</title>
+      <link>https://sabrinaadler.github.io/myblog/tags/rag/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sabrinaadler.github.io/myblog/tags/rag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retrieval Augmented Generation</title>
+      <link>https://sabrinaadler.github.io/myblog/tags/retrieval-augmented-generation/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://sabrinaadler.github.io/myblog/tags/retrieval-augmented-generation/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

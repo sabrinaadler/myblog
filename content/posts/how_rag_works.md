@@ -2,6 +2,7 @@
 title: How Retrieval Augmented Generation Works
 date: 2025-07-16
 author: Sabrina Adler
+tags: ["RAG", "Retrieval Augmented Generation", "NLP"]
 ---
 
 

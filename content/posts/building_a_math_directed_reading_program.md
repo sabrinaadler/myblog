@@ -3,6 +3,10 @@ title: "Building a Math Directed Reading Program"
 date: 2026-03-09
 description: "Reflections on launching Penn State's Math Directed Reading Program."
 tags: ["math", "education", "directed reading program"]
+
+cover:
+  image: "/myblog/images/drp.jpg"
+  alt: "Penn State Math Directed Reading Program"
 ---
 
 Over the past year, I have been working alongside my fellow Penn State undergraduate students *Daniel Harmon, Prajwal Bhandari, and Samarth Khandelwal* as well as Penn State graduate students *Nick Payne and Jake Canel* on Penn State's first **Mathematics Directed Reading Program (DRP)**. A DRP pairs undergraduate students with mentors for a semester-long guided reading on an advanced mathematical topic. The format is simple: students meet with their mentor weekly, work through papers or textbook chapters, and present their work at the end of the semester.

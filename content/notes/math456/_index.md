@@ -18,4 +18,5 @@ Below you’ll find all my weekly lecture notes and study guides for MATH 456.
 | Week 06   | Applying Newton's Method to Implicit Methods        | [Download](math456-week6.pdf) |
 | Week 07   | Discrete Least Squares                              | [Download](math456-week7.pdf) |
 | Week 08   | Continuous Least Squares                            | [Download](math456-week8.pdf) |
-| Week 09   | WORK IN PROGRESS                                    | ~~~~~ |
+| Week 09   | Linear Shooting Method                              | [Download](math456-week9.pdf) |
+| Week 10   | WORK IN PROGRESS                                    | ~~~~~~ |
